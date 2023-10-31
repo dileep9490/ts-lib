@@ -2,11 +2,12 @@
 	"name": "my-library",
 	"version": "1.0.0",
 	"source": "src/index.ts",
-	"main": "dist/main.mjs",
+	"main": "dist/main.js",
 	"types": "lib/main.d.ts",
+	"module": "./dist/main.module.js",
 	"scripts": {
 		"watch": "parcel watch",
-		"build": "rm -rf dist && parcel build"
+		"build": "parcel build"
 	},
 	"devDependencies": {
 		"@parcel/packager-ts": "2.10.1",
