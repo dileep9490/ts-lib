@@ -1,4 +1,4 @@
 export const hello: () => void;
 export const hi: () => void;
 
-//# sourceMappingURL=main.d.ts.map
+//# sourceMappingURL=index.d.ts.map
