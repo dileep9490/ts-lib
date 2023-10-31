@@ -1,1 +1,0 @@
-{"mappings":"AAAA,OAAO,MAAM,iBAEZ,CAAC;ACFF,OAAO,MAAM,cAEZ,CAAC","sources":["src/src/hello.ts","src/src/second.ts","src/src/index.ts","src/index.ts"],"sourcesContent":[null,null,null,"export { hello } from \"./hello\";\nexport { hi } from \"./second\";\n"],"names":[],"version":3,"file":"main.d.ts.map"}

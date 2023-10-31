@@ -2,8 +2,12 @@
 	"name": "my-library",
 	"version": "1.0.0",
 	"source": "src/index.ts",
-	"main": "dist/index.js",
-	"types": "lib/index.d.ts",
+	"main": "lib/index.js",
+	"module": "lib/index.esm.js",
+	"types": "lib/src/index.d.ts",
+	"files": [
+		"lib"
+	],
 	"scripts": {
 		"watch": "parcel watch",
 		"build": "parcel build"
