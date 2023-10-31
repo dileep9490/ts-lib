@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"source": "src/index.ts",
 	"main": "dist/main.mjs",
-	"types": "dist/main.d.ts",
+	"types": "lib/main.d.ts",
 	"scripts": {
 		"watch": "parcel watch",
 		"build": "rm -rf dist && parcel build"
