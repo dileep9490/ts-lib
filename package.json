@@ -2,9 +2,8 @@
 	"name": "my-library",
 	"version": "1.0.0",
 	"source": "src/index.ts",
-	"types": "./index.d.ts",
-	"main": "./index.js",
-	"type": "commonjs",
+	"main": "dist/index.js",
+	"types": "lib/index.d.ts",
 	"scripts": {
 		"watch": "parcel watch",
 		"build": "parcel build"
